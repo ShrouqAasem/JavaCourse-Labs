@@ -1,17 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        String commandLine = "163.121.12.30";
-        IPCutter cut = new IPCutter(commandLine);
-        System.out.println("the output of " + commandLine + " is");
-        int [] out = cut.splitIp();
-        int [] out1 = cut.tokenIP();
-        for(int i =0; i< out.length ; i++){
-            System.out.println(out[i]);
-        }
-        System.out.println("--------------------------------------");
-        for(int i =0; i < out1.length ; i++){
-            System.out.println(out1[i]);
-        }
+        String string = "but asd kjkj but asd llll but ";
+        String word = "but";
+        CountWords count = new CountWords();
+        count.countWordsFirstWay(string,word);
+        count.countWordsSecondWay(string,word);
+	count.countWordsThirdWay(string,word);
+	count.countWordsFourthWay(string,word);
+
     }
 }
