@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String string = "but asd kjkj but asd llll but ";
+        String word = "but";
+        CountWords count = new CountWords();
+        count.countWordsFirstWay(string,word);
+        count.countWordsSecondWay(string,word);
+	count.countWordsThirdWay(string,word);
+	count.countWordsFourthWay(string,word);
+
+    }
+}
